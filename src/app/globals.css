@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  color: white;
+  max-width: 1100px;
+  margin: auto;
+  width: 95%;
+}
+
+.header-logo {
+  width: 30%;
+}
+
+.social {
+  a {
+    padding: 5px;
+  }
+}
+
+.header-nav {
+  width: 40%;
+}
+
+.headern-link {
+  padding: 10px 20px;
+}
+
+.banner {
+  background: url(../../public/papito-bg.png) center bottom no-repeat;
+  background-size: cover;
+}
+
+.banner .container {
+  height: 100%;
+}
+
+.banner-title {
+  background: white;
+  color: black;
+  margin-top: 60px;
+  border-radius: 14px;
+  padding: 8px 40px;
+  display: inline-block;
+  font-size: 35px;
+  max-width: 630px;
+}
+
+.banner-text {
+  max-width: 800px;
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  background: white;
+  color: black;
+  border-radius: 14px;
+  padding: 8px 40px;
+  margin-top: 30px;
+}
+
+.h-80 {
+  height: 80vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  width: 95%
+}
