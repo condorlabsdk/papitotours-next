@@ -617,7 +617,7 @@ body {
 }
 
 .header-logo {
-  width: 30%;
+  width: 40%;
 }
 
 .social a {
@@ -630,6 +630,16 @@ body {
 
 .headern-link {
   padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-logo {
+    width: 100%;
+  }
+
+  .header-nav {
+    display: none;
+  }
 }
 
 .banner {
@@ -658,8 +668,31 @@ body {
   border-radius: 14px;
   width: 95%;
   max-width: 800px;
-  margin-top: 30px;
+  margin: 30px auto auto;
   padding: 8px 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner.h-80 {
+    height: 50vh;
+  }
+
+  .banner-title {
+    font-size: 19px;
+  }
+
+  .banner-text {
+    font-size: 13px;
+  }
+}
+
+.tours {
+  color: #fff;
+  padding: 50px 0;
+}
+
+.tours-title {
+  font-size: ;
 }
 
 .h-80 {

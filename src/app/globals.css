@@ -33,7 +33,7 @@ body {
 }
 
 .header-logo {
-  width: 30%;
+  width: 40%;
 }
 
 .social {
@@ -50,6 +50,16 @@ body {
   padding: 10px 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .header-logo {
+    width: 100%;
+  }
+  .header-nav {
+    display: none;
+  }
+}
+
+/* BANNER */
 .banner {
   background: url(../../public/papito-bg.png) center bottom no-repeat;
   background-size: cover;
@@ -81,6 +91,31 @@ body {
   padding: 8px 40px;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .banner.h-80 {
+    height: 50vh;
+  }
+  .banner-title {
+    font-size: 19px;
+  }
+  .banner-text {
+    font-size: 13px;
+  }
+}
+
+/* TOURS */
+.tours {
+  color: white;
+  padding: 50px 0;
+}
+.tours-title {
+  font-size: 25px;
+}
+.tours-descrition {
+  font-size: 20px;
+}
+
 
 .h-80 {
   height: 80vh;

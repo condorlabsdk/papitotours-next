@@ -20,7 +20,7 @@ export default function Home() {
           <div className="social">
             <a>IG</a>
             <a>FB</a>
-            <a>TikTok</a>
+            <a>Tk</a>
           </div>
         </div>
         <nav className="header-nav">
@@ -43,6 +43,17 @@ export default function Home() {
           <h1 className="banner-title stext-xl">Palacio Histórico de AmalienBorg</h1>
           <p className="banner-text">
             Descubre los edificios más emblemáticos de la ciudad, como El Palacio de Christianborg,la postal de la ciudad Nyhavn y el Palacio de Amalienborg.s
+          </p>
+        </div>
+      </section>
+
+      <section className="tours">
+        <div className="container flex flex-col justify-center items-center">
+          <h2 className="tours-title">
+            Looking for a tour in Copenhagen?
+          </h2>
+          <p className="tours-descrition">
+            Check out the following experiences
           </p>
         </div>
       </section>
