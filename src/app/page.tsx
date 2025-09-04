@@ -107,6 +107,34 @@ export default function Home() {
 
         </div>
       </section>
+
+      <section className="partners">
+        <div className="container flex justify-center items-center">
+          <h4 className="partners-title">
+            Partners
+          </h4>
+          <div className="partners-images flex">
+            <figure className="partners-image">
+              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+            </figure>
+            <figure className="partners-image">
+              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+            </figure>
+            <figure className="partners-image">
+              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+            </figure>
+            <figure className="partners-image">
+              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+            </figure>
+            <figure className="partners-image">
+              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+            </figure>
+            <figure className="partners-image">
+              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+            </figure>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
