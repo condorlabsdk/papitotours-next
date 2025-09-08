@@ -135,6 +135,85 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="footer">
+        <div className="container flex justify-between">
+
+          <div className="footer-item">
+            <h4 className="footer-title">
+              Sobre nosotros
+            </h4>
+
+            <p className="footer-description">
+              Walk and Tour es una agencia de tours  en la capital de Dinamarca. Como diseñadores de tours, nos esforzamos por organizar experiencias memorables y únicas en la ciudad.
+              Desde hace años nos dedicamos con mucha pasión y entusiasmo a la tarea de guiar y entretener a miles de visitantes en Copenhague.
+            </p>
+
+            <u className="footer-cvr">CVR 43268465</u>
+          </div>
+          
+          <div className="footer-item">
+            <h4 className="footer-title">
+              Contacto
+            </h4>
+
+            <ul>
+              <li>
+                <a href="mailto:info@walkandtour.dk">info@walkandtour.dk</a>
+              </li>
+              <li>
+                <a href="">+45 71 35 24 53 (Whatsapp)</a>
+              </li>
+              <li>
+                <a href="">Plaza del Ayuntamiento (Rådhuspladsen)</a>
+              </li>
+            </ul>
+
+            <h4 className="footer-title mt-8">
+              Seguinos en redes
+            </h4>
+
+            <ul className="flex justify-around">
+              <li>
+                <a href="">Facebook</a>
+              </li>
+              <li>
+                <a href="">Instagram</a>
+              </li>
+            </ul>
+            
+          </div>
+          
+          <div className="footer-item">
+            <h4 className="footer-title">
+              Enlaces útiles
+            </h4>
+
+            <ul className="footer-links">
+              <li>
+                <a href="">Sobre nosotros</a>
+              </li>
+              <li>
+                <a href="">Preguntas frecuentes</a>
+              </li>
+              <li>
+                <a href="">Mapa de Recomendaciones</a>
+              </li>
+              <li>
+                <a href="">Términos y Condiciones</a>
+              </li>
+              <li>
+                <a href="">Trabaja con nosotros</a>
+              </li>
+              <li>
+                <a href="">Tour in Italiano</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </footer>
     </main>
   );
 }
