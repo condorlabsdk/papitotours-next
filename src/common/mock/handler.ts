@@ -3,9 +3,10 @@ import {
 } from "msw";
 
 export const handlers = [
-  http.post('/chats', (req: any, res: any, ctx: any)=>{
+/*  http.post('/chats', ({req, res, ctx})=>{
     return res(ctx?.status(200), ctx?.json(req.body))
   }),
+*/
 
   http.get("/chats", ()=>{
     return HttpResponse.json({

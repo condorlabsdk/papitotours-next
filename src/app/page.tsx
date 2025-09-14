@@ -1,15 +1,6 @@
 "use client"
 
-import { useState } from "react";
-
-type ChatType = {
-  id: string;
-  name: string;
-  messages: Array<[]>;
-}
-
 export default function Home() {
-  const [activeChat, setActiveChat] = useState<Boolean | null>(false);
 
   return (
     <main className="main">
@@ -59,29 +50,35 @@ export default function Home() {
           <div className="tour-items flex justify-between">
 
             <figure className="tour-item">
-              <img src="https://static.wixstatic.com/media/41187b_29a1c8d892b24642b2a812d019107f58~mv2.jpg/v1/fill/w_270,h_319,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nick-karvounis-3_ZGrsirryY-unsplash.jpg" alt="" className="tour-item-img" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_29a1c8d892b24642b2a812d019107f58~mv2.jpg/v1/fill/w_270,h_319,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/nick-karvounis-3_ZGrsirryY-unsplash.jpg" alt="" className="tour-item-img" />
+              </picture>
               <figcaption className="tour-item-caption">
                 <h4 className="tour-item-title">
                   Copenhagen Historic Center
                 </h4>
                 <p className="tour-item-description">
-                  Discover the city's most iconic buildings , including Christiansborg Palace, the city's iconic Nyhavn, Amalienborg Palace, and much more! The perfect introduction for newcomers.
+                  Discover the city`&apos;`s most iconic buildings , including Christiansborg Palace, the city`&apos;`s iconic Nyhavn, Amalienborg Palace, and much more! The perfect introduction for newcomers.
                 </p>
               </figcaption>
             </figure>
             <figure className="tour-item">
-              <img src="https://static.wixstatic.com/media/41187b_a9c45962da9b42759bc77088a6ef86da~mv2.png/v1/crop/x_167,y_0,w_941,h_1102/fill/w_254,h_303,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-05%20at%2009_12_25.png" alt="" className="tour-item-img" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_a9c45962da9b42759bc77088a6ef86da~mv2.png/v1/crop/x_167,y_0,w_941,h_1102/fill/w_254,h_303,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-05%20at%2009_12_25.png" alt="" className="tour-item-img" />
+              </picture>
               <figcaption className="tour-item-caption">
                 <h4 className="tour-item-title">
                   Copenhagen: Luxury Boat Getaway
                 </h4>
                 <p className="tour-item-description">
-                  Glide across the water in complete silence, leaving the hustle and bustle of the city behind as you take in the majestic scenery of Copenhagen's harbor on one of our luxury vessels.
+                  Glide across the water in complete silence, leaving the hustle and bustle of the city behind as you take in the majestic scenery of Copenhagen`&apos;`s harbor on one of our luxury vessels.
                 </p>
               </figcaption>
             </figure>
             <figure className="tour-item">
-              <img src="https://static.wixstatic.com/media/41187b_d03583dfe8714351956312dc4793d8e5~mv2.jpg/v1/crop/x_0,y_157,w_960,h_1124/fill/w_254,h_303,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/eremitageslotte-unesco.jpg" alt="" className="tour-item-img" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_d03583dfe8714351956312dc4793d8e5~mv2.jpg/v1/crop/x_0,y_157,w_960,h_1124/fill/w_254,h_303,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/eremitageslotte-unesco.jpg" alt="" className="tour-item-img" />
+              </picture>
               <figcaption className="tour-item-caption">
                 <h4 className="tour-item-title">            
                   Deer Park by Bike
@@ -92,13 +89,15 @@ export default function Home() {
               </figcaption>
             </figure>
             <figure className="tour-item">
-              <img src="https://static.wixstatic.com/media/41187b_63da147bc9294f43b7485b316a5eb764~mv2.jpeg/v1/crop/x_274,y_0,w_533,h_624/fill/w_254,h_303,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/unnamed%20(1).jpeg" alt="" className="tour-item-img" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_63da147bc9294f43b7485b316a5eb764~mv2.jpeg/v1/crop/x_274,y_0,w_533,h_624/fill/w_254,h_303,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/unnamed%20(1).jpeg" alt="" className="tour-item-img" />
+              </picture>
               <figcaption className="tour-item-caption">
                 <h4 className="tour-item-title">
                   Excursion - Malmö, Sweden
                 </h4>
                 <p className="tour-item-description">
-                  This beautiful Swedish city, the third largest in the country, has become a must-see tourist destination for years if you're visiting Copenhagen. Don't miss it!
+                  This beautiful Swedish city, the third largest in the country, has become a must-see tourist destination for years if you`&apos;`re visiting Copenhagen. Don`&apos;`t miss it!
                 </p>
               </figcaption>
             </figure>
@@ -115,22 +114,34 @@ export default function Home() {
           </h4>
           <div className="partners-images flex">
             <figure className="partners-image">
-              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              </picture>
             </figure>
             <figure className="partners-image">
-              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              </picture>
             </figure>
             <figure className="partners-image">
-              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              </picture>
             </figure>
             <figure className="partners-image">
-              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              </picture>
             </figure>
             <figure className="partners-image">
-              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+                <picture>
+                  <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              </picture>
             </figure>
             <figure className="partners-image">
-              <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              <picture>
+                <img src="https://static.wixstatic.com/media/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png/v1/fill/w_130,h_129,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/41187b_5cfe68dae0804d198c44b36cb6b1f092~mv2.png" alt="" />
+              </picture>
             </figure>
           </div>
         </div>

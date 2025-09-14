@@ -66,8 +66,11 @@ body {
 
 /* BANNER */
 .banner {
+  
   background: url(../../public/papito-bg.png) center bottom no-repeat;
   background-size: cover;
+  background-position: 0px -440px;
+
 }
 
 .banner .container {
