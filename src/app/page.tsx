@@ -6,7 +6,7 @@ export default function Home() {
     <main className="main">
       <header className="header justify-between flex p-4">
         <div className="header-logo flex justify-between">
-          <a className="">Papito Tours Cph</a>
+          <a className="">Papito Tours Cph 2</a>
 
           <div className="social">
             <a>IG</a>
