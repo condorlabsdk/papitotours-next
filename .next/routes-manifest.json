@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/papitotours-next",
   "redirects": [
+    {
+      "source": "/papitotours-next/",
+      "destination": "/papitotours-next",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/papitotours-next/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
