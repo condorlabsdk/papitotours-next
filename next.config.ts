@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   output: 'export',
-  basePath: '/papitotours-next',
+  // basePath: '/papitotours-next',
 };
 
 export default nextConfig;

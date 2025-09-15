@@ -1,4 +1,4 @@
-// File: /workspaces/papitotours-next/src/app/page.tsx
+// File: /Users/daniloviacavavizarreta/www/git/papitotours/src/app/page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

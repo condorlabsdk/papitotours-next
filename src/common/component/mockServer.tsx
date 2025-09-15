@@ -17,7 +17,7 @@ export function StartMockWorker({children}: {children: React.ReactNode}) {
     enableMocks();
   }, []);
 
-  if (false) {
+  if (!isMockReady) {
     return <div>Loading mocks...</div>;
   }
 

@@ -12,7 +12,7 @@
     },
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/papitotours-next",
+    "assetPrefix": "",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.ts",
     "useFileSystemPublicRoutes": true,
@@ -46,7 +46,7 @@
         256,
         384
       ],
-      "path": "/papitotours-next/_next/image",
+      "path": "/_next/image",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -69,9 +69,9 @@
       "pagesBufferLength": 5
     },
     "amp": {
-      "canonicalBase": "/papitotours-next"
+      "canonicalBase": ""
     },
-    "basePath": "/papitotours-next",
+    "basePath": "",
     "sassOptions": {},
     "trailingSlash": false,
     "i18n": null,
@@ -98,7 +98,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/workspaces/papitotours-next",
+    "outputFileTracingRoot": "/Users/daniloviacavavizarreta/www/git/papitotours",
     "experimental": {
       "useSkewCookie": false,
       "nodeMiddleware": false,
@@ -157,7 +157,7 @@
       "middlewarePrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 1,
+      "cpus": 3,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptTimeoutInSeconds": 7,
@@ -289,10 +289,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "/workspaces/papitotours-next"
+      "root": "/Users/daniloviacavavizarreta/www/git/papitotours"
     }
   },
-  "appDir": "/workspaces/papitotours-next",
+  "appDir": "/Users/daniloviacavavizarreta/www/git/papitotours",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
